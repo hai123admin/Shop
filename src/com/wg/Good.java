@@ -98,7 +98,17 @@ public class Good {
 	 *            the discount to set
 	 */
 	public void setDiscount(double discount) {
+		
 		this.discount = discount;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Good [type=" + type + ", name=" + name + ", count=" + count
+				+ ", price=" + price + ", discount=" + discount + "]";
 	}
 
 }
